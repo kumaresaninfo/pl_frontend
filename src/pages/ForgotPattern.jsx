@@ -213,7 +213,7 @@ const ForgotPattern = () => {
                                 value={formData.username}
                                 onChange={handleInputChange}
                                 onBlur={() => handleBlur('username')}
-                                placeholder="Enter your username"
+                                placeholder="kumaresan"
                                 className={errors.username && touched.username ? 'input-error' : ''}
                             />
                             {errors.username && touched.username && (
@@ -229,7 +229,7 @@ const ForgotPattern = () => {
                                 value={formData.email}
                                 onChange={handleInputChange}
                                 onBlur={() => handleBlur('email')}
-                                placeholder="Enter your email"
+                                placeholder="kumaresanpvi23@gmail.com"
                                 className={errors.email && touched.email ? 'input-error' : ''}
                             />
                             {errors.email && touched.email && (

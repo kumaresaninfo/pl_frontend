@@ -114,7 +114,7 @@ const SignIn = () => {
                                 value={username}
                                 onChange={handleUsernameChange}
                                 onBlur={handleBlur}
-                                placeholder="Enter your username"
+                                placeholder="kumaresan"
                                 className={usernameError && touched ? 'input-error' : ''}
                             />
                             {usernameError && touched && (

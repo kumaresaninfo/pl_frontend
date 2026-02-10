@@ -216,7 +216,7 @@ const Register = () => {
                                 value={formData.name}
                                 onChange={handleInputChange}
                                 onBlur={() => handleBlur('name')}
-                                placeholder="John Doe"
+                                placeholder="Kumaresan Rajendran"
                                 className={errors.name && touched.name ? 'input-error' : ''}
                             />
                             {errors.name && touched.name && (
@@ -232,7 +232,7 @@ const Register = () => {
                                 value={formData.email}
                                 onChange={handleInputChange}
                                 onBlur={() => handleBlur('email')}
-                                placeholder="john@example.com"
+                                placeholder="kumaresanpvi23@gmail.com"
                                 className={errors.email && touched.email ? 'input-error' : ''}
                             />
                             {errors.email && touched.email && (
@@ -248,7 +248,7 @@ const Register = () => {
                                 value={formData.username}
                                 onChange={handleInputChange}
                                 onBlur={() => handleBlur('username')}
-                                placeholder="johndoe"
+                                placeholder="kumaresan"
                                 className={errors.username && touched.username ? 'input-error' : ''}
                             />
                             {errors.username && touched.username && (
