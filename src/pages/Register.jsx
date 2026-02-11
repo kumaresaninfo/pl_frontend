@@ -197,7 +197,8 @@ const Register = () => {
     return (
         <div className="container">
             <div className="card">
-                <h1>🎨 Create Account</h1>
+
+                <h1>Create Account</h1>
                 <p>Join with pattern-based authentication</p>
 
                 {message.text && (
